@@ -76,3 +76,19 @@ margin-bottom: 0.5rem;
   to { opacity: 1; transform: translateY(0); }
 }
 main section { animation: fadeIn 1s ease-out; }
+
+/* Animation d'entrée */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main section {
+  animation: fadeIn 1s ease-out;
+}
